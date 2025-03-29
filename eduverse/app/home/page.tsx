@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaHome, FaTrophy, FaUsers, FaCog } from 'react-icons/fa';
 import Navbar from '../components/navbar/page';
-
+import UserHUD from '../components/headerhud/page';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -102,13 +102,11 @@ const App = () => {
   return (
     <Container>
       {/* Header */}
-      <Header>
-        <Username>GUEST16x23</Username>
-        <Level>
-          <FaTrophy />
-          <span>Level 28</span>
-        </Level>
-      </Header>
+      <UserHUD>
+        
+          
+     
+      </UserHUD>
 
       {/* Main Content */}
       <QuestSection>
