@@ -54,7 +54,7 @@ const ProfileSetup = () => {
                             />
                         </div>
                     </div>
-                    <Link href="/setup/2" className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition">
+                    <Link href="/register/setup2" className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition">
                         Next
                     </Link>
                 </form>
