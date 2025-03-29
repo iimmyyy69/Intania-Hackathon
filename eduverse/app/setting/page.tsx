@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import {
   User,
@@ -14,7 +15,7 @@ import {
 } from "lucide-react";
 import UserHUD from "../components/headerhud/page";
 import SettingsMenuItem from "../components/settingmenuitem/page";
-
+import Navbar from "../components/navbar/page";
 const SettingsScreen: React.FC = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col justify-between">
@@ -41,27 +42,10 @@ const SettingsScreen: React.FC = () => {
           </button>
         </div>
       </div>
+    <Navbar/>
 
-      {/* Bottom Navigation */}
-      <div className="bg-[#140c29] py-2 px-4 flex justify-between items-center rounded-t-3xl text-white">
-        <div className="flex flex-col items-center text-xs">
-          <Home size={20} />
-          <span>Home</span>
-        </div>
-        <div className="flex flex-col items-center text-xs">
-          <HelpCircle size={20} />
-          <span>Quest</span>
-        </div>
-        <div className="flex flex-col items-center text-xs">
-          <Users size={20} />
-          <span>Social</span>
-        </div>
-        <div className="flex flex-col items-center text-xs">
-          <Cog size={20} />
-          <span>Setting</span>
-        </div>
       </div>
-    </div>
+   
   );
 };
 

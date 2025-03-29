@@ -4,6 +4,7 @@ import UserHUD from "../components/headerhud/page";
 import NotificationCard from "../components/notifications/noticard";
 import NotificationFilter from "../components/notifications/notifilter";
 import NotificationList from "../components/notifications/notilist";
+import Navbar from "../components/navbar/page";
 
 
 const NotificationScreen: React.FC = () => {
@@ -25,7 +26,7 @@ const NotificationScreen: React.FC = () => {
         <NotificationList />
       </div>
 
-      
+      <Navbar/>
     </div>
   );
 };

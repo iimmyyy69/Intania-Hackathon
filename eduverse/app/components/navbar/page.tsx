@@ -2,7 +2,7 @@
 import React from 'react';
 import { FaHome, FaTrophy, FaUsers, FaCog } from 'react-icons/fa';
 import styled from 'styled-components';
-
+import Link from 'next/link';
 const NavbarContainer = styled.footer`
   background-color: #2d2d3d;
   color: white;
@@ -26,19 +26,19 @@ const Navbar = () => {
     <NavbarContainer>
       <IconButton>
         <FaHome size={24} />
-        <span>Home</span>
+        <Link href = "/home">Home</Link >
       </IconButton>
       <IconButton>
         <FaTrophy size={24} />
-        <span>Quest</span>
+        <Link href = "">Quest</Link >
       </IconButton>
       <IconButton>
         <FaUsers size={24} />
-        <span>Social</span>
+        <Link href = "">Social</Link>
       </IconButton>
       <IconButton>
         <FaCog size={24} />
-        <span>Sett</span>
+        <Link href = "/setting">Setting</Link>
       </IconButton>
     </NavbarContainer>
   );
