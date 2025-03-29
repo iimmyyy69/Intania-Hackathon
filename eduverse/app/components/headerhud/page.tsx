@@ -1,6 +1,6 @@
 import React from "react";
 import { Heart, Bell, User } from "lucide-react";
-
+import Link from "next/link";
 interface UserHUDProps {
   username: string;
   hearts: number; // max: 3
@@ -47,7 +47,7 @@ const UserHUD: React.FC<UserHUDProps> = ({
       </div>
 
       {/* Right - Notifications */}
-      <div className="relative">
+      <Link href="/noti" className="relative">
         <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center text-black">
           <Bell size={16} />
         </div>
@@ -56,7 +56,7 @@ const UserHUD: React.FC<UserHUDProps> = ({
             {notifications}
           </div>
         )}
-      </div>
+      </Link>
     </div>
   );
 };
