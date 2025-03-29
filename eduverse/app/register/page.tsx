@@ -40,12 +40,9 @@ const RegisterPage = () => {
               />
             </div>
   
-            <button
-              type="submit"
-              className="w-full bg-[#1D2A94] text-white py-2 rounded-full font-semibold mt-4"
-            >
-              Register
-            </button>
+
+            <Link href="/register/setup" className="w-full bg-[#1D2A94] text-white py-2 rounded-full font-semibold mt-4"> 
+            Register </Link>
           </form>
         </div>
       </div>
