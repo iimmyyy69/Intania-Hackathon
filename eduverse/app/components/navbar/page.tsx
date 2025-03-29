@@ -38,7 +38,7 @@ const Navbar = () => {
       </IconButton>
       <IconButton>
         <FaCog size={24} />
-        <span>Setting</span>
+        <span>Sett</span>
       </IconButton>
     </NavbarContainer>
   );
