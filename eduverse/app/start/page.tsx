@@ -15,8 +15,13 @@ const WelcomeScreen: React.FC = () => {
         {/* Character & Room */}
         <div className="relative -mt-12 flex justify-center">
           <img
-            src="/your-character-room.png" // replace with your asset
+            src="/room1 1.png" // replace with your asset
             alt="Character Room"
+            className="w-[260px] h-auto transform rotate-[-10deg] drop-shadow-lg"
+          />
+                    <img
+            src="/girl.png" // replace with your asset
+            alt="Girl"
             className="w-[260px] h-auto transform rotate-[-10deg] drop-shadow-lg"
           />
         </div>
