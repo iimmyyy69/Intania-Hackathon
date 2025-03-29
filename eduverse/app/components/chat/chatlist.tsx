@@ -4,17 +4,17 @@ import ChatListItem from "./chatitem";
 const ChatList: React.FC = () => {
   const chats = [
     {
-      avatar: "/bot.png", // update with your path
+      avatar: "/chat/bot.png", // update with your path
       name: "AI",
       message: "Click Here to Start Messaging ...",
     },
     {
-      avatar: "/son.png",
+      avatar: "/chat/son.png",
       name: "Son Heung min",
       message: "Thank you Jay :3",
     },
     {
-      avatar: "/megatron.png",
+      avatar: "/chat/megatron.png",
       name: "Megatron",
       message: "Brubrubrubb whatever hehe..",
     },

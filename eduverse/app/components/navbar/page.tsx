@@ -34,7 +34,7 @@ const Navbar = () => {
       </IconButton>
       <IconButton>
         <FaUsers size={24} />
-        <Link href = "">Social</Link>
+        <Link href = "/social">Social</Link>
       </IconButton>
       <IconButton>
         <FaCog size={24} />
