@@ -16,7 +16,7 @@ const NotificationScreen: React.FC = () => {
 
       <div className="flex-grow">
         <div className="flex items-center justify-between px-4 mt-4">
-          <h1 className="text-2xl font-bold">Notification</h1>
+          <h1 className="text-black text-2xl font-bold">Notification</h1>
           <div className="bg-red-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
             3
           </div>

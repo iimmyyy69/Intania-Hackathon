@@ -14,7 +14,7 @@ const SocialScreen: React.FC = () => {
 
       {/* Main content */}
       <div className="flex-grow px-6 py-8">
-        <h1 className="text-2xl font-bold mb-6">Social</h1>
+        <h1 className="text-black text-2xl font-bold mb-6">Social</h1>
 
         <div className="grid grid-cols-2 gap-6">
           {/* Chat Option */}
@@ -23,7 +23,7 @@ const SocialScreen: React.FC = () => {
             onClick={() => router.push('/chat')}
           >
             <MessageCircle size={40} className="text-purple-700 mb-2" />
-            <span className="text-md font-semibold">Chat</span>
+            <span className="text-black text-md font-semibold">Chat</span>
           </div>
 
           {/* Meeting Option */}
@@ -32,7 +32,7 @@ const SocialScreen: React.FC = () => {
             onClick={() => router.push('/meeting')}
           >
             <Users size={40} className="text-purple-700 mb-2" />
-            <span className="text-md font-semibold">Meeting</span>
+            <span className="text-black text-md font-semibold">Meeting</span>
           </div>
         </div>
       </div>

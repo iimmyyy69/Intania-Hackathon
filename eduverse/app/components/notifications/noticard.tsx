@@ -14,7 +14,7 @@ const NotificationCard: React.FC<NotificationCardProps> = ({ type, icon, content
       <div className="w-10 h-10 flex items-center justify-center">{icon}</div>
       <div className="flex-1">
         <div>{content}</div>
-        {actions && <div className="mt-2 flex gap-2">{actions}</div>}
+        {actions && <div className="text-black mt-2 flex gap-2">{actions}</div>}
       </div>
     </div>
   );

@@ -4,6 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaHome, FaTrophy, FaUsers, FaCog } from 'react-icons/fa';
 import Navbar from '../components/navbar/page';
+import Link from 'next/link';
 import UserHUD from '../components/headerhud/page';
 const Container = styled.div`
   display: flex;
@@ -106,7 +107,7 @@ const App = () => {
 
       {/* Main Content */}
       <QuestSection>
-        <QuestTitle>Daily Quest 🐱</QuestTitle>
+        <QuestTitle className="font-bold">Daily Quest 🐱</QuestTitle>
         <div className='bg-[#252627] rounded-3xl p-6 shadow-md mb-4'>
           <div>
             <div className='text-sm text-white-500 mb-2 flex justify-between'>
@@ -126,7 +127,7 @@ const App = () => {
           </div>
         </div>
 
-        <QuestTitle>Interested Quest 🍕</QuestTitle>
+        <QuestTitle className="font-bold mb-2">Interested Quest 🍕</QuestTitle>
         <div className='bg-[#252627] rounded-3xl p-6 shadow-md mb-4'>
           <div>
             <div className='text-lg text-white-500 mb-2 flex justify-between'>
@@ -144,7 +145,9 @@ const App = () => {
               </ProgressBar>
               <div className='flex justify-between'>
                 <span className='text-sm text-black mt-3 flex justify-between'>Completed 78%</span>
+                <Link href = "/quest">
                 <StartButton>Start</StartButton>
+                </Link>
               </div>
 
             </QuestCard>
@@ -160,7 +163,10 @@ const App = () => {
               </ProgressBar>
               <div className='flex justify-between'>
                 <span className='text-sm text-black mt-3 flex justify-between'>Completed 52%</span>
-                <StartButton>Start</StartButton>
+                <Link href = "/quest">
+                  <StartButton>Start</StartButton>
+                </Link>
+
               </div>
             </QuestCard>
             <div className='text-lg text-white-500 mb-2 flex justify-between'>
@@ -178,7 +184,9 @@ const App = () => {
               </ProgressBar>
               <div className='flex justify-between'>
                 <span className='text-sm text-black mt-3 flex justify-between'>Completed 21%</span>
+                <Link href = "/quest">
                 <StartButton>Start</StartButton>
+                </Link>
               </div>
             </QuestCard>
           </div>

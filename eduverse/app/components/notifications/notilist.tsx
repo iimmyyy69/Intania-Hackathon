@@ -10,7 +10,7 @@ const NotificationList: React.FC = () => {
         type="message"
         icon={<img src="/avatar.png" className="w-10 h-10 rounded-full" />}
         content={
-          <p className="text-sm">
+          <p className="text-black text-sm">
             <strong>Yao Ming</strong> sends a request
           </p>
         }
@@ -27,7 +27,7 @@ const NotificationList: React.FC = () => {
         type="energy"
         icon={<span className="text-yellow-400 text-xl">⚡</span>}
         content={
-          <p className="text-sm">
+          <p className="text-black text-sm">
             <strong>Your energy</strong> has already been recharged<br />
             <span className="text-xs text-gray-500">19 hr 56 m ago</span>
           </p>
@@ -44,7 +44,7 @@ const NotificationList: React.FC = () => {
         type="lesson"
         icon={<span className="text-red-500 text-xl">❗</span>}
         content={
-          <p className="text-sm">
+          <p className="text-black text-sm">
             <strong>New Lesson</strong> just arrived
           </p>
         }
