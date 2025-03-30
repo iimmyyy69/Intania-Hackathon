@@ -30,7 +30,7 @@ const Navbar = () => {
       </IconButton>
       <IconButton>
         <FaTrophy size={24} />
-        <Link href = "">Quest</Link >
+        <Link href = "quest">Quest</Link >
       </IconButton>
       <IconButton>
         <FaUsers size={24} />
