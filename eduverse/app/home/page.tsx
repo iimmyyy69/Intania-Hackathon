@@ -103,7 +103,13 @@ const App = () => {
   return (
     <Container>
       {/* Header */}
-      <UserHUD />
+      <UserHUD 
+  username="GUEST1623" 
+  hearts={2} 
+  level={28} 
+  notifications={2} 
+/>
+
 
       {/* Main Content */}
       <QuestSection>
