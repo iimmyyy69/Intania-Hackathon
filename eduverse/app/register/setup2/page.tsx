@@ -16,7 +16,7 @@ const InterestSelection = () => {
     return (
         <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center py-10">
             <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
-                <h2 className="text-2xl font-semibold mb-4">What's your interest?</h2>
+                <h2 className="text-2xl font-semibold mb-4">What&apos;s your interest?</h2>
                 <div className="mb-4">
                     <div className="text-xl font-medium mb-2">Creatives</div>
                     <div className="flex gap-2 flex-wrap">

@@ -2,7 +2,6 @@
 "use client";
 import React from 'react';
 import styled from 'styled-components';
-import { FaHome, FaTrophy, FaUsers, FaCog } from 'react-icons/fa';
 import Navbar from '../components/navbar/page';
 import Link from 'next/link';
 import UserHUD from '../components/headerhud/page';
