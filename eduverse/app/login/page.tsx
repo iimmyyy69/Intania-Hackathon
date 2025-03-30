@@ -1,6 +1,8 @@
+'use client'
 import Link from "next/link";
-
+import { useRouter } from "next/navigation";
 const LoginPage = () => {
+  const router = useRouter();
     return (
       <div className="h-screen w-screen flex flex-col items-center justify-center bg-eduverse px-4">
         <h1 className="text-white text-4xl font-bold mb-6">EduVerse</h1>
@@ -39,7 +41,7 @@ const LoginPage = () => {
             <button
               type="submit"
               className="w-full bg-[#1D2A94] text-white py-2 rounded-full font-semibold mt-2"
-            >
+              onClick={() => router.push('/home')}>
               Login
             </button>
           </form>

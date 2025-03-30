@@ -108,65 +108,80 @@ const App = () => {
       <QuestSection>
         <QuestTitle>Daily Quest 🐱</QuestTitle>
         <div className='bg-[#252627] rounded-3xl p-6 shadow-md mb-4'>
-        <div>
+          <div>
             <div className='text-sm text-white-500 mb-2 flex justify-between'>
-            <span>เข้าใช้งานติดต่อกันเป็นเวลา 7 วัน 🗓️</span>
-            <span>5/7 Completed</span>
-        </div>
-        <ProgressBar className="mb-2">
-            <Progress progress={71} />
-        </ProgressBar>
-        <div className='text-sm text-white-500 mb-2 flex justify-between'>
-            <span>เพิ่มเพื่อนคนแรก 💸</span>
-            <span>0/1 Completed</span>
-        </div>
-        <ProgressBar className="mb-2">
-            <Progress progress={0} />
-        </ProgressBar>
-        </div>
+              <span>เข้าใช้งานติดต่อกันเป็นเวลา 7 วัน 🗓️</span>
+              <span>5/7 Completed</span>
+            </div>
+            <ProgressBar className="mb-2">
+              <Progress progress={71} />
+            </ProgressBar>
+            <div className='text-sm text-white-500 mb-2 flex justify-between'>
+              <span>เพิ่มเพื่อนคนแรก 💸</span>
+              <span>0/1 Completed</span>
+            </div>
+            <ProgressBar className="mb-2">
+              <Progress progress={0} />
+            </ProgressBar>
+          </div>
         </div>
 
         <QuestTitle>Interested Quest 🍕</QuestTitle>
         <div className='bg-[#252627] rounded-3xl p-6 shadow-md mb-4'>
-            <div>
-                <div className='text-lg text-white-500 mb-2 flex justify-between'>
-                    Main Quest
-                </div>
-                <QuestCard>
-                    <QuestCardTitle>Math</QuestCardTitle>
-                        <ProgressBar>
-                            <Progress progress={78} />
-                        </ProgressBar>
-                        <div className='flex justify-between'>
-                            <span className='text-sm text-black mt-3 flex justify-between'>Completed 78%</span>
-                            <StartButton>Start</StartButton>
-                        </div>
-
-                </QuestCard>
-                <QuestCard>
-                    <QuestCardTitle>Science</QuestCardTitle>
-                        <ProgressBar>
-                            <Progress progress={52} />
-                        </ProgressBar>
-                        <div className='flex justify-between'>
-                            <span className='text-sm text-black mt-3 flex justify-between'>Completed 52%</span>
-                            <StartButton>Start</StartButton>
-                        </div>
-                </QuestCard>
-                <div className='text-lg text-white-500 mb-2 flex justify-between'>
-                    Side Quest
-                </div>
-                <QuestCard>
-                    <QuestCardTitle>Finance</QuestCardTitle>
-                        <ProgressBar>
-                            <Progress progress={21} />
-                        </ProgressBar>
-                        <div className='flex justify-between'>
-                            <span className='text-sm text-black mt-3 flex justify-between'>Completed 21%</span>
-                            <StartButton>Start</StartButton>
-                        </div>
-                </QuestCard>
+          <div>
+            <div className='text-lg text-white-500 mb-2 flex justify-between'>
+              Main Quest
             </div>
+            <QuestCard>
+              <QuestCardTitle>Math</QuestCardTitle>
+              <img
+                src="/home/math.jpg" // use your actual image path
+                alt="Math Quest"
+                className="w-full h-32 object-cover rounded-lg my-2"
+              />
+              <ProgressBar>
+                <Progress progress={78} />
+              </ProgressBar>
+              <div className='flex justify-between'>
+                <span className='text-sm text-black mt-3 flex justify-between'>Completed 78%</span>
+                <StartButton>Start</StartButton>
+              </div>
+
+            </QuestCard>
+            <QuestCard>
+              <QuestCardTitle>Science</QuestCardTitle>
+              <img
+                src="/home/Science.jpg" // use your actual image path
+                alt="Sci Quest"
+                className="w-full h-32 object-cover rounded-lg my-2"
+              />
+              <ProgressBar>
+                <Progress progress={52} />
+              </ProgressBar>
+              <div className='flex justify-between'>
+                <span className='text-sm text-black mt-3 flex justify-between'>Completed 52%</span>
+                <StartButton>Start</StartButton>
+              </div>
+            </QuestCard>
+            <div className='text-lg text-white-500 mb-2 flex justify-between'>
+              Side Quest
+            </div>
+            <QuestCard>
+              <QuestCardTitle>Finance</QuestCardTitle>
+              <img
+                src="/home/Finance.jpg" // use your actual image path
+                alt="Math Quest"
+                className="w-full h-32 object-cover rounded-lg my-2"
+              />
+              <ProgressBar>
+                <Progress progress={21} />
+              </ProgressBar>
+              <div className='flex justify-between'>
+                <span className='text-sm text-black mt-3 flex justify-between'>Completed 21%</span>
+                <StartButton>Start</StartButton>
+              </div>
+            </QuestCard>
+          </div>
         </div>
       </QuestSection>
 
