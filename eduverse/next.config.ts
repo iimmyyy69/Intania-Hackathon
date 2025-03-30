@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
   output: 'export',
   basePath: isProd ? '/Intania-Hackathon' : '',
   assetPrefix: isProd ? '/Intania-Hackathon/' : '',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;

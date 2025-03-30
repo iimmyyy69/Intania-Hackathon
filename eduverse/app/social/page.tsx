@@ -1,9 +1,9 @@
 'use client'
 import React from "react";
 import { MessageCircle, Users } from "lucide-react";
-import UserHUD from "../components/headerhud/page";
+import UserHUD from "../components/headerhud/userhud";
 import { useRouter } from "next/navigation";
-import Navbar from "../components/navbar/page";
+import Navbar from "../components/navbar/navbar";
 
 const SocialScreen: React.FC = () => {
   const router = useRouter();

@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
-import UserHUD from "../components/headerhud/page";
-import Navbar from "../components/navbar/page";
+import UserHUD from "../components/headerhud/userhud";
+import Navbar from "../components/navbar/navbar";
 import ChatList from "../components/chat/chatlist";
 const ChatScreen: React.FC = () => {
   return (

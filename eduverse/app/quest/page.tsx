@@ -1,6 +1,6 @@
 'use client'
-import UserHUD from "../components/headerhud/page";
-import Navbar from "../components/navbar/page";
+import UserHUD from "../components/headerhud/userhud";
+import Navbar from "../components/navbar/navbar";
 
 const QuestMapPage: React.FC = () => {
   return (

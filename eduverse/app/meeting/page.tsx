@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from "react";
 import { Mic, MicOff, Send } from "lucide-react";
-import UserHUD from "../components/headerhud/page";
-import Navbar from "../components/navbar/page";
+import UserHUD from "../components/headerhud/userhud";
+import Navbar from "../components/navbar/navbar";
 
 const avatars = [
   { src: "/Char/head.png", name: "Top" },

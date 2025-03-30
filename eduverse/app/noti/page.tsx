@@ -1,10 +1,10 @@
 "use client"
 import React, { useState } from "react";
-import UserHUD from "../components/headerhud/page";
+import UserHUD from "../components/headerhud/userhud";
 import NotificationCard from "../components/notifications/noticard";
 import NotificationFilter from "../components/notifications/notifilter";
 import NotificationList from "../components/notifications/notilist";
-import Navbar from "../components/navbar/page";
+import Navbar from "../components/navbar/navbar";
 
 
 const NotificationScreen: React.FC = () => {

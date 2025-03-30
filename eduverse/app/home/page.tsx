@@ -2,9 +2,9 @@
 "use client";
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../components/navbar/page';
+import Navbar from '../components/navbar/navbar';
 import Link from 'next/link';
-import UserHUD from '../components/headerhud/page';
+import UserHUD from '../components/headerhud/userhud';
 const Container = styled.div`
   display: flex;
   flex-direction: column;

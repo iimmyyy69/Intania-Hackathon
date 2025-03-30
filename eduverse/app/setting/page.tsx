@@ -13,9 +13,9 @@ import {
   Users,
   Cog
 } from "lucide-react";
-import UserHUD from "../components/headerhud/page";
-import SettingsMenuItem from "../components/settingmenuitem/page";
-import Navbar from "../components/navbar/page";
+import UserHUD from "../components/headerhud/userhud";
+import SettingsMenuItem from "../components/settingmenuitem/setting";
+import Navbar from "../components/navbar/navbar";
 const SettingsScreen: React.FC = () => {
   return (
     <div className="min-h-screen bg-white flex flex-col justify-between">
